@@ -24,7 +24,7 @@ The [compiled .jar file](https://www.spigotmc.org/resources/customshop.109627/do
 
 **/dcategory**
 
-- with this command a category can be deleted
+- with this command a category can be deleted (also deletes all its offers)
 
 - the command requires exactly one argument
 
