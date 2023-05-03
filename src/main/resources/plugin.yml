@@ -1,0 +1,20 @@
+name: CustomShop
+version: '${project.version}'
+main: com.kalle.customshop.CustomShop
+depend: [Vault]
+commands:
+  ccategory:
+    usage: /ccategory <Name of the category> <Material of the icon>
+    description: A command to create a category in the shop.
+  dcategory:
+    usage: /dcategory <Name of the category>
+    description: A command to delete a category from the shop.
+  coffer:
+    usage: /coffer <Name of the offer> <Item to sell> <price> <Name of the category>
+    description: A command to create an offer in the shop.
+  doffer:
+    usage: /doffer <Name of the offer>
+    description: A command to delete an offer from the shop.
+  cshop:
+    usage: /cshop
+    description: A command for players to open the custom created shop.
