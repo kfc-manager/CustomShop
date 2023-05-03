@@ -4,7 +4,7 @@ This plugin makes use of the [VaultAPI](https://github.com/MilkBowl/VaultAPI) an
 
 ## Installation
 
-The [compiled .jar file](https://www.spigotmc.org/resources/customshop.109627/download?version=495341) can be dragged in the plugin folder of your server and after reloading the server the console should say that the plugin has been enabled. Make sure that you installed a plugin that implements an economy (for example [EssentialsX](https://essentialsx.net/downloads.html)) and a chat plugin (for example [EssentialsChat](https://essentialsx.net/downloads.html)), without it the plugin won't work and disable itself!
+The [compiled .jar file](https://www.spigotmc.org/resources/customshop.109627/download?version=495341) can be dragged in the plugin folder of your server and after reloading the server the console should say that the plugin has been enabled. Make sure that you installed a plugin that implements an economy (for example [EssentialsX](https://essentialsx.net/downloads.html)) and a chat plugin (for example [EssentialsChat](https://essentialsx.net/downloads.html)), without it the plugin won't work and disable itself! The plugin creates a config.yml file in its data folder where the data (categories and offers) are stored. I highly recommend that you only work with the commands and **not** make changes to the config manually as it could corrupt the file and break the plugin.
 
 ## Commands
 
